@@ -1,0 +1,399 @@
+{
+  "code": "en",
+  "name": "English",
+  "ui": {
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "support": "Support",
+    "home": "Ippo Care",
+    "contents": "On this page",
+    "skip": "Skip to content",
+    "updated": "Last updated",
+    "effective": "Effective",
+    "provider": "Provider",
+    "contact": "Contact the developer",
+    "appleEula": "Apple Standard EULA",
+    "applePrivacy": "Apple Privacy Policy",
+    "privacyHero": ["Your health data.", "Your choices."],
+    "privacyIntro": "What Ippo Care collects, where it is stored, who receives it and how you stay in control.",
+    "termsHero": ["Clear terms,", "fair use."],
+    "termsIntro": "The rules for using Ippo Care, its free features, the one-time Full Unlock and the optional AI assistant.",
+    "supportHero": ["A little help,", "when you need it."],
+    "supportIntro": "Answers to common questions, and a direct line to the developer.",
+    "emailUs": "Email the developer",
+    "languageNote": "Translations are provided for convenience. If versions differ, the English version prevails unless the law where you live requires otherwise.",
+    "integrity": "These pages are published from a public, version-controlled repository. Every change is recorded in its history.",
+    "history": "Change history",
+    "copyright": "Yusen Wang · Ippo Care"
+  },
+  "privacy": [
+    {
+      "id": "summary",
+      "title": "Summary",
+      "bullets": [
+        "Ippo Care has no developer-operated account system and no developer-operated health database. Your profile, records, journal and conversations are stored on your iPhone.",
+        "Apple Health data is read only with your permission, is never used for advertising or marketing, and is never sold or rented.",
+        "The app contains no advertising, no third-party analytics and no tracking SDKs, and does not track you across apps or websites.",
+        "AI is optional. Content is sent to an AI provider only when you configure one with your own API key and start a task that needs it.",
+        "You can export or delete your data in the app at any time, and revoke permissions in iOS Settings or the Health app."
+      ]
+    },
+    {
+      "id": "provider",
+      "title": "1. Who we are and what this policy covers",
+      "paragraphs": [
+        "Ippo Care (the \"App\") is developed and provided by Yusen Wang, an individual developer (\"we\", \"us\"). We are the party responsible for the processing described in this policy. Contact: wm88889@hotmail.com.",
+        "This policy applies to the Ippo Care app for iPhone and to these privacy, terms and support pages. It does not apply to third-party services you choose to connect, such as Apple Health data sources, AI providers or websites opened from the App; those services have their own policies.",
+        "Ippo Care helps you record, organize and understand personal health, fitness and wellbeing information. It is not a medical device and does not provide diagnosis, treatment or prescriptions."
+      ]
+    },
+    {
+      "id": "collect",
+      "title": "2. Information the App processes",
+      "paragraphs": [
+        "Because the App works on your device, \"processing\" below mostly means processing on your iPhone. We, the developer, do not receive this information unless you send it to us yourself, for example in a support email."
+      ],
+      "bullets": [
+        "Profile information you enter: height, date of birth, sex used for training heart-rate zones and the muscle-map body figure, unit and appearance preferences, goals and progress.",
+        "Apple Health data you authorize: for example sleep, steps, activity and energy, heart rate, resting heart rate, heart-rate variability, workouts, body measurements and other categories you choose. The App reads this data; it does not write to or modify Apple Health.",
+        "Records you create: meals, supplements, workouts, sets and weights, body measurements, notes, photos you attach and other journal entries.",
+        "Assistant conversations: the text you type or dictate, attachments you choose, the assistant's replies, generated cards, and, if you enable assistant memory, short facts the assistant saves to personalize later replies.",
+        "AI configuration: the provider, service address, model names, feature switches and API keys you enter.",
+        "Purchase and trial status: first-launch and latest-use times used to calculate the trial, and the product, transaction and entitlement information returned by Apple StoreKit.",
+        "Optional Sign in with Apple: if you use it, Apple may share a stable identifier and, depending on your choice, your name and a real or relay email address. It is used only to associate your local profile and is never required to buy or restore the Full Unlock.",
+        "Technical information kept on the device: app settings, caches, and local diagnostic logs used to keep the App working. These are not sent to us automatically."
+      ]
+    },
+    {
+      "id": "use",
+      "title": "3. How the information is used",
+      "bullets": [
+        "To show your daily status, trends, charts, goals, badges and the City that grows with your real activity.",
+        "To save and display the records you create and to let you edit, export or delete them.",
+        "To carry out assistant tasks you start, such as answering a question, logging a meal or workout from your description or photo, planning, or explaining an exercise.",
+        "To calculate the free trial, verify the Full Unlock and restore purchases.",
+        "To keep the App secure and working, and to answer messages you send to us.",
+        "We do not use your information for advertising, profiling for marketing, data brokering or training our own AI models. We do not sell or rent personal information, and we do not \"share\" it for cross-context behavioral advertising."
+      ]
+    },
+    {
+      "id": "health",
+      "title": "4. Apple Health and system permissions",
+      "paragraphs": [
+        "The App asks for Apple Health read access for the categories it can use. You choose which categories to allow, and iOS does not tell the App which read permissions you declined; missing data simply stays missing. The App does not write to Apple Health.",
+        "Data obtained through Apple HealthKit is used only to provide the App's health and fitness features to you. It is not used for advertising or other data-mining purposes, not disclosed to third parties for those purposes, not sold, and not stored in iCloud by the App.",
+        "Health data leaves your device only if you turn on AI health analysis in Privacy and permissions and start a task that needs it; in that case only the data the task needs is sent to the AI provider you configured (see section 5).",
+        "Camera, photo library, microphone and speech recognition are requested only when you use a feature that needs them. You can change every permission at any time in iOS Settings, and Apple Health permissions in the Health app under Sharing › Apps and Services › Ippo Care. Revoking access stops future reads; it does not delete copies already saved in the App, which you can delete in the App's data controls."
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "5. Optional AI features and third-party recipients",
+      "paragraphs": [
+        "The assistant only works with an AI provider you choose and an API key you supply. Ippo Care does not run its own model service, does not resell model access, and the Full Unlock does not include AI usage. The provider bills you directly under its own terms.",
+        "When you start an assistant task, the App sends the provider what that task needs: your message, relevant conversation context, attachments you selected, and, only if AI health analysis is enabled, the health records needed for the task. The provider also receives technical data needed for any internet request, such as your IP address.",
+        "Supported providers currently include OpenAI, DeepSeek, Anthropic (Claude), Alibaba Cloud Qwen, Google Gemini, xAI, OpenRouter, SiliconFlow, Moonshot Kimi, Zhipu, MiniMax, Volcengine Ark and other compatible addresses you enter. Only the provider you configure for a task receives that task's request. Different tasks (for example chat, image generation, video generation or online speech) can use different providers if you set them up that way.",
+        "If you enable web search, the search query and the addresses of pages to read are sent to the configured search service or provider. General literature searches may be sent to PubMed / NCBI. Search queries are built from general terms; the App instructs the assistant not to include your name or personal records in them.",
+        "If you choose an online voice or an image or video generation service, the text to be read aloud or the prompt and inputs for generation are sent to that service. The default read-aloud voice uses Apple's on-device system voices.",
+        "Each provider decides where it processes data, how long it keeps it, and whether it is used to train models. Some providers process data outside your country or region. Please read the privacy policy of the provider you choose. Turning off AI or deleting a provider stops future requests but does not delete copies already held by the provider; contact the provider to delete them.",
+        "API keys are stored in the iOS Keychain, are sent only to the provider they belong to for authentication, are never included in exports, and are never placed into conversation content."
+      ]
+    },
+    {
+      "id": "storage",
+      "title": "6. Where data is stored and how it is protected",
+      "paragraphs": [
+        "Profiles, records, journals, conversations and attachments are stored in the App's private storage on your iPhone. The App encrypts its local database, keeps database keys and API keys in the iOS Keychain, and relies on iOS data protection. Device backups you make with iCloud or a computer may include App data according to your backup settings and Apple's terms.",
+        "No method of storage or transmission is completely secure. Please protect your device with a passcode, keep exported files safe, and only send data to services you trust.",
+        "We do not operate servers that receive your health records. Widgets and Live Activities display information you have chosen to show on your Home Screen or Lock Screen, where people with access to your device may see it."
+      ]
+    },
+    {
+      "id": "retention",
+      "title": "7. How long data is kept",
+      "bullets": [
+        "Profile, records, journal and conversations: until you delete them in the App or delete the App.",
+        "Assistant memory: until you delete the memory item, turn the feature off and clear it, or delete the App.",
+        "Exported files: temporary export files inside the App are removed after about ten minutes; copies you saved or shared elsewhere are under your control.",
+        "Trial timestamps in the Keychain: may remain after the App is deleted so that the free trial cannot be restarted; they contain no health information.",
+        "Purchase records: kept by Apple under Apple's policies.",
+        "Support emails: kept only as long as needed to handle your request and any follow-up, normally no more than two years, unless the law requires longer."
+      ]
+    },
+    {
+      "id": "rights",
+      "title": "8. Your choices and rights",
+      "bullets": [
+        "Access and export: Settings › Privacy and permissions › Export or delete data creates a copy of your records you can save or share.",
+        "Correction: edit your profile, records and goals directly in the App.",
+        "Deletion: delete individual records or all App data in the App. Deleting data in the App does not delete original data in Apple Health or copies held by AI providers.",
+        "Withdraw consent: turn off AI health analysis, remove AI providers and keys, or revoke system permissions at any time. Withdrawal does not affect processing that took place before.",
+        "Contact us: email wm88889@hotmail.com to ask a question, make a request or complain. Because we do not hold your App data on our servers, most requests are fulfilled directly in the App; we will explain how. Please do not send health records, ID documents, passwords or API keys in your first message.",
+        "You may also complain to the data protection authority where you live."
+      ]
+    },
+    {
+      "id": "regions",
+      "title": "9. Additional information for specific regions",
+      "bullets": [
+        "United Kingdom and similar laws: we process data to provide the App you asked for (contract), with your explicit consent for health data and for sending data to an AI provider, and for our legitimate interest in keeping the App secure. You have rights of access, rectification, erasure, restriction, portability and objection, and may complain to the Information Commissioner's Office.",
+        "United States, including California and other states with privacy laws: we do not sell personal information, do not share it for cross-context behavioral advertising, and do not use sensitive personal information to infer characteristics about you. You may request to know, delete or correct personal information, and we will not discriminate against you for exercising your rights. Consumer health data you provide is used only to deliver the features you request.",
+        "Japan (APPI): health information is special care-required personal information and is acquired only with your consent. When you choose an AI provider located outside Japan, data is provided to that provider at your direction; please check the provider's policy for its country and safeguards.",
+        "Republic of Korea (PIPA): health information is sensitive information and is processed only with your separate consent. Data is sent abroad only to the AI provider you choose, at the time you start a task, and you can stop this by turning AI off.",
+        "Taiwan, Hong Kong, Macao, Singapore and Malaysia: we collect personal data only for the purposes described here, keep it only as long as needed, and handle access and correction requests sent to the contact address.",
+        "Canada, Australia and New Zealand: you may request access to and correction of personal information we hold about you and complain to the relevant privacy commissioner.",
+        "We aim to respond to verified requests within 30 days, or sooner where local law requires."
+      ]
+    },
+    {
+      "id": "children",
+      "title": "10. Children",
+      "paragraphs": [
+        "Ippo Care is a general-audience health and fitness app and is not directed to children under 13 (or the minimum age in your country). Minors should use it only with a parent or guardian's involvement, and AI providers may set their own minimum ages.",
+        "If you believe a child has provided personal information to us, contact us and we will take appropriate steps, including deleting it."
+      ]
+    },
+    {
+      "id": "website",
+      "title": "11. These web pages",
+      "paragraphs": [
+        "These pages are static documents hosted on GitHub Pages. They contain no forms, cookies, advertising or analytics scripts. GitHub may process technical information such as your IP address to deliver the pages and keep them secure, under GitHub's own privacy statement.",
+        "If you email us, your email provider and ours process the message."
+      ]
+    },
+    {
+      "id": "changes",
+      "title": "12. Changes to this policy",
+      "paragraphs": [
+        "We will update this policy when the App's features or data practices change. The date at the top shows the latest version, and the full change history is public in the repository that publishes these pages. If a change materially affects how your data is used, we will tell you in the App and ask for consent again where required."
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "13. Contact",
+      "paragraphs": [
+        "Yusen Wang, developer of Ippo Care. Email: wm88889@hotmail.com."
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "id": "agreement",
+      "title": "1. Agreement",
+      "paragraphs": [
+        "These Terms of Service (\"Terms\") are an agreement between you and Yusen Wang, the individual developer of Ippo Care (\"we\", \"us\"). By downloading or using Ippo Care (the \"App\"), you agree to these Terms and to Apple's Licensed Application End User License Agreement (the \"Apple EULA\"). If you do not agree, do not use the App.",
+        "Our Privacy Policy explains how data is handled and forms part of these Terms."
+      ]
+    },
+    {
+      "id": "eligibility",
+      "title": "2. Who may use the App",
+      "paragraphs": [
+        "You must be at least 13 years old, or the minimum age required in your country, to use the App. If you are under the age of majority where you live, you may use the App only with the involvement and consent of a parent or guardian, who accepts these Terms on your behalf. AI providers may require you to be older; you must meet their requirements to use their services."
+      ]
+    },
+    {
+      "id": "license",
+      "title": "3. Your license to use the App",
+      "paragraphs": [
+        "Subject to these Terms and the Apple EULA, we grant you a personal, non-exclusive, non-transferable, revocable license to use the App on Apple devices that you own or control, as permitted by the App Store Usage Rules.",
+        "You may not copy, modify, distribute, sell or rent the App; reverse engineer, decompile or attempt to extract its source code, except where the law expressly allows it; remove notices; or use the App to build a competing product. Open-source components are licensed under their own licenses, listed in the App and in the third-party notices."
+      ]
+    },
+    {
+      "id": "medical",
+      "title": "4. Not medical advice",
+      "paragraphs": [
+        "Ippo Care is a personal wellness and fitness tool. It is not a medical device, and it does not diagnose, treat, cure or prevent any disease. Scores such as the recovery trend, charts, badges, the City, assistant replies and exercise guides are for general information and motivation only.",
+        "Always seek the advice of a physician or other qualified health professional about a medical condition, medication, diet or training program, and before starting or changing exercise. Never ignore professional advice or delay seeking it because of something in the App.",
+        "If you think you may have a medical emergency, contact your local emergency number immediately. The App cannot call for help and does not monitor you."
+      ]
+    },
+    {
+      "id": "data-accuracy",
+      "title": "5. Health data and accuracy",
+      "paragraphs": [
+        "The App relies on data from Apple Health, connected devices and what you enter. That data can be incomplete, delayed or inaccurate, and estimates such as energy, sleep stages or recovery can differ from clinical measurements. You are responsible for checking important information against reliable sources.",
+        "You keep all rights in the data and content you create. The App processes it on your device only to provide its features to you."
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "6. Optional AI assistant",
+      "paragraphs": [
+        "The assistant is optional and works only with a third-party AI provider and API key that you choose. Your use of that provider is governed by the provider's own terms and policies, and the provider charges you directly. We are not responsible for a provider's availability, pricing, data practices or outputs.",
+        "AI output can be wrong, incomplete, outdated or inappropriate, even when it sounds confident. Do not rely on it for medical, nutritional, legal or financial decisions. Review records the assistant creates before relying on them, and use the App's undo and edit controls if something is wrong.",
+        "You are responsible for the content you send to a provider and for keeping your API keys secure. Do not submit content you do not have the right to share, or other people's personal information without their permission.",
+        "Images or videos generated by AI are illustrations and must not be used as exercise technique demonstrations or medical images. Some providers offer optional safety checks; turning them off may expose you to unsuitable output."
+      ]
+    },
+    {
+      "id": "exercise",
+      "title": "7. Exercise, nutrition and safety",
+      "paragraphs": [
+        "Exercise guides, demonstrations, plans and nutrition information in the App are general references. They have not been reviewed for your personal circumstances. Exercise involves a risk of injury. Warm up, use appropriate loads, stop immediately if you feel pain, dizziness, chest discomfort or shortness of breath, and consult a qualified coach, physiotherapist or physician before unfamiliar or heavy training. You participate in any activity at your own risk to the extent permitted by law."
+      ]
+    },
+    {
+      "id": "purchases",
+      "title": "8. Free features, trial and Full Unlock",
+      "bullets": [
+        "Today and City are free to use without time limit.",
+        "All features are available free for 72 consecutive hours after first launch. The trial does not charge you automatically and does not turn into a subscription.",
+        "After the trial, the remaining features can be unlocked permanently with the one-time, non-consumable Full Unlock in-app purchase. It is not a subscription and does not renew. The price is shown in the App before you buy and may vary by region and tax.",
+        "Purchases are processed by Apple under Apple's terms. Payment, receipts and refunds are handled by Apple; to request a refund, use Apple's \"Report a Problem\" page. We cannot issue refunds directly. Your statutory rights are not affected.",
+        "You can restore the Full Unlock on devices signed in with the same Apple Account using Restore Purchases. Family Sharing applies only if it is enabled for the product in the App Store.",
+        "The Full Unlock does not include fees charged by AI providers or other third-party services.",
+        "We may add, change or remove features over time. If we materially reduce a paid feature you bought, we will try to provide a reasonable alternative where we can."
+      ]
+    },
+    {
+      "id": "conduct",
+      "title": "9. Acceptable use",
+      "paragraphs": [
+        "You agree not to use the App to break the law or infringe others' rights; to harass, deceive or harm anyone; to generate or distribute unlawful, sexually explicit, hateful or violent content; to attempt to bypass purchase checks, security or technical limits; to interfere with the App or third-party services; or to use AI features in ways that violate the provider's policies."
+      ]
+    },
+    {
+      "id": "ip",
+      "title": "10. Intellectual property",
+      "paragraphs": [
+        "The App, including its design, code, City artwork, badges, characters, text and trademarks, belongs to us or our licensors and is protected by law. These Terms do not give you any rights in them except the license in section 3.",
+        "If you send us feedback or suggestions, we may use them freely without obligation to you."
+      ]
+    },
+    {
+      "id": "third-party",
+      "title": "11. Third-party services and links",
+      "paragraphs": [
+        "The App can connect to or link to services we do not control, such as Apple Health, AI providers, search services and websites. Their terms and privacy policies apply, and we are not responsible for their content, availability or practices."
+      ]
+    },
+    {
+      "id": "availability",
+      "title": "12. Updates and availability",
+      "paragraphs": [
+        "We may release updates that add, change or remove features, fix problems or meet legal requirements, and some updates may be required to keep using the App. We do not promise that the App will always be available, error-free or compatible with every device or iOS version. Because your data is stored on your device, please keep backups and export important records."
+      ]
+    },
+    {
+      "id": "warranty",
+      "title": "13. Disclaimer",
+      "paragraphs": [
+        "To the maximum extent permitted by law, the App is provided \"as is\" and \"as available\", without warranties of any kind, express or implied, including warranties of merchantability, fitness for a particular purpose, accuracy and non-infringement. Some jurisdictions do not allow certain disclaimers, so some of these may not apply to you."
+      ]
+    },
+    {
+      "id": "liability",
+      "title": "14. Limitation of liability",
+      "paragraphs": [
+        "To the maximum extent permitted by law, we are not liable for indirect, incidental, special, consequential or punitive damages, or for loss of data, profits or goodwill, arising from or related to the App, third-party services or AI output. Our total liability for all claims relating to the App is limited to the amount you paid for the App and in-app purchases in the twelve months before the claim.",
+        "Nothing in these Terms excludes or limits liability that cannot be excluded or limited by law, including liability for death or personal injury caused by negligence, for fraud, or your rights under mandatory consumer protection laws."
+      ]
+    },
+    {
+      "id": "termination",
+      "title": "15. Ending these Terms",
+      "paragraphs": [
+        "You may stop using the App at any time and delete it. We may suspend or end your license if you seriously or repeatedly breach these Terms. Sections that by their nature should survive, such as sections 4, 5, 10, 13, 14 and 17, continue to apply after termination. Before deleting the App, export any data you want to keep."
+      ]
+    },
+    {
+      "id": "apple",
+      "title": "16. Apple terms",
+      "bullets": [
+        "These Terms are between you and us, not Apple. Apple is not responsible for the App or its content.",
+        "Apple has no obligation to provide maintenance or support for the App.",
+        "If the App fails to conform to an applicable warranty, you may notify Apple, and Apple will refund the purchase price, if any; to the maximum extent permitted by law, Apple has no other warranty obligation regarding the App.",
+        "We, not Apple, are responsible for addressing claims relating to the App, including product liability claims, claims that the App fails to meet legal or regulatory requirements, and consumer protection, privacy or similar claims.",
+        "We, not Apple, are responsible for investigating, defending, settling and discharging any third-party claim that the App or your use of it infringes that party's intellectual property rights.",
+        "You represent that you are not located in a country subject to a U.S. Government embargo or designated as a \"terrorist supporting\" country, and that you are not on any U.S. Government list of prohibited or restricted parties.",
+        "Apple and its subsidiaries are third-party beneficiaries of these Terms and may enforce them against you."
+      ]
+    },
+    {
+      "id": "law",
+      "title": "17. Governing law and disputes",
+      "paragraphs": [
+        "Please contact us first so we can try to resolve any concern informally. These Terms are governed by the laws that apply where you habitually reside if you are a consumer and those laws give you that right; otherwise they are governed by the laws of the developer's place of residence, without regard to conflict-of-law rules. You keep the protection of mandatory consumer laws and the right to bring proceedings in the courts where you live, where those laws provide it."
+      ]
+    },
+    {
+      "id": "changes",
+      "title": "18. Changes to these Terms",
+      "paragraphs": [
+        "We may update these Terms to reflect changes to the App or the law. The date at the top shows the current version, and every change is recorded in the public history of the repository that publishes these pages. If a change is material, we will give notice in the App before it takes effect. Continuing to use the App after a change takes effect means you accept it; if you do not agree, stop using the App."
+      ]
+    },
+    {
+      "id": "general",
+      "title": "19. General",
+      "paragraphs": [
+        "If any part of these Terms is found unenforceable, the rest remains in effect. Our failure to enforce a provision is not a waiver. You may not transfer these Terms; we may transfer them to a successor of the App who agrees to honor them. These Terms, the Apple EULA and the Privacy Policy are the entire agreement about the App. Where these Terms and the Apple EULA conflict, these Terms apply to the extent permitted by Apple's rules. Translations are provided for convenience; if versions differ, the English version prevails unless the law where you live requires otherwise."
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "20. Contact",
+      "paragraphs": [
+        "Yusen Wang, developer of Ippo Care. Email: wm88889@hotmail.com."
+      ]
+    }
+  ],
+  "support": [
+    {
+      "title": "Contact the developer",
+      "paragraphs": [
+        "Email wm88889@hotmail.com. We usually reply within two business days. Please include your iPhone model, iOS version and the Ippo Care version shown at the bottom of Settings, what you did, what you expected and what happened. Screenshots help, but please cover health details first. Never send your Apple Account password or AI API keys."
+      ]
+    },
+    {
+      "title": "What is free, and what does the Full Unlock include?",
+      "paragraphs": [
+        "Today and City are free forever. Every feature is free for the first 72 hours after you first open the App. After that, a one-time Full Unlock permanently unlocks Health, Goals, Trends, the assistant and the rest. It is not a subscription and the trial never charges you automatically."
+      ]
+    },
+    {
+      "title": "How do I restore my purchase?",
+      "paragraphs": [
+        "Make sure the device is signed in to the Apple Account that bought the Full Unlock, then open Settings › Ippo Care full version › Restore Purchases. No Ippo Care account is needed."
+      ]
+    },
+    {
+      "title": "How do I get a refund?",
+      "paragraphs": [
+        "Apple processes all App Store payments, so refunds are requested from Apple at reportaproblem.apple.com or through your purchase history. We cannot see your payment details or issue refunds directly."
+      ]
+    },
+    {
+      "title": "Apple Health shows no data or the wrong data",
+      "paragraphs": [
+        "Open the Health app › Sharing › Apps and Services › Ippo Care and make sure the categories you want are allowed. Then open Ippo Care › Data sources and pull down to refresh. New Apple Watch or iPhone readings can take a few minutes to arrive in Apple Health. Ippo Care only reads Apple Health; it never changes your Health records."
+      ]
+    },
+    {
+      "title": "Setting up the AI assistant",
+      "paragraphs": [
+        "Open Settings › AI assistant, choose a provider, paste an API key from that provider's website and pick a model. Usage is billed by the provider, not by Ippo Care. If you see an authentication or quota error, check the key, the balance and the model name on the provider's website. The assistant reads your health records only if you turn on AI health analysis in Privacy and permissions."
+      ]
+    },
+    {
+      "title": "Export, back up or delete your data",
+      "paragraphs": [
+        "Your data lives on your iPhone. Use Settings › Privacy and permissions › Export or delete data to save a copy or erase it. Keep an export or an iPhone backup before changing devices, because there is no Ippo Care cloud copy."
+      ]
+    },
+    {
+      "title": "Is Ippo Care medical advice?",
+      "paragraphs": [
+        "No. Ippo Care supports personal wellness and fitness. It does not diagnose or treat conditions. Talk to a qualified health professional about medical questions, and call your local emergency number in an emergency."
+      ]
+    },
+    {
+      "title": "Policies",
+      "paragraphs": [
+        "Read the Privacy Policy and Terms of Service linked at the top of this page. Purchases are also subject to Apple's Standard EULA."
+      ]
+    }
+  ]
+}
