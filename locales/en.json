@@ -92,7 +92,7 @@
         "Records you create: meals, supplements, workouts, sets and weights, body measurements, notes, photos you attach and other journal entries.",
         "Assistant conversations: the text you type or dictate, attachments you choose, the assistant's replies, generated cards, and, if you enable assistant memory, short facts the assistant saves to personalize later replies.",
         "AI configuration: the provider, service address, model names, feature switches and API keys you enter.",
-        "Purchase and trial status: first-launch and latest-use times used to calculate the trial, and the product, transaction and entitlement information returned by Apple StoreKit.",
+        "Purchase and trial status: the trial's start time (once you start it) and latest-use time, used to calculate the trial, and the product, transaction and entitlement information returned by Apple StoreKit.",
         "Optional Sign in with Apple: if you use it, Apple may share a stable identifier and, depending on your choice, your name and a real or relay email address. It is used only to associate your local profile and is never required to buy or restore the Full Unlock.",
         "Technical information kept on the device: app settings, caches, and local diagnostic logs used to keep the App working. These are not sent to us automatically."
       ]
@@ -272,7 +272,7 @@
       "title": "8. Free features, trial and Full Unlock",
       "bullets": [
         "Today and City are free to use without time limit.",
-        "All features are available free for 72 consecutive hours after first launch. The trial does not charge you automatically and does not turn into a subscription.",
+        "You can start one free trial of every feature whenever you choose; it lasts 72 consecutive hours from the moment you start it. Nothing starts automatically: you may also keep using the free features without ever starting the trial. The trial never charges you, never renews and does not turn into a subscription.",
         "After the trial, the remaining features can be unlocked permanently with the one-time, non-consumable Full Unlock in-app purchase. It is not a subscription and does not renew. The price is shown in the App before you buy and may vary by region and tax.",
         "Purchases are processed by Apple under Apple's terms. Payment, receipts and refunds are handled by Apple; to request a refund, use Apple's \"Report a Problem\" page. We cannot issue refunds directly. Your statutory rights are not affected.",
         "You can restore the Full Unlock on devices signed in with the same Apple Account using Restore Purchases. Family Sharing applies only if it is enabled for the product in the App Store.",
@@ -383,7 +383,7 @@
     {
       "title": "What is free, and what does the Full Unlock include?",
       "paragraphs": [
-        "Today and City are free forever. Every feature is free for the first 72 hours after you first open the App. After that, a one-time Full Unlock permanently unlocks Health, Goals, Trends, the assistant and the rest. It is not a subscription and the trial never charges you automatically."
+        "Today and City are free forever. You can start a free 72-hour trial of every feature whenever you choose. After that, a one-time Full Unlock permanently unlocks Health, Goals, Trends, the assistant and the rest. It is not a subscription and the trial never charges you or renews."
       ]
     },
     {
