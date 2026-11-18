@@ -14,17 +14,50 @@
     "contact": "联系开发者",
     "appleEula": "Apple 标准最终用户许可协议",
     "applePrivacy": "Apple 隐私政策",
-    "privacyHero": ["你的健康数据，", "由你决定。"],
+    "privacyHero": [
+      "你的健康数据，",
+      "由你决定。"
+    ],
     "privacyIntro": "Ippo Care 收集什么、存在哪里、会发给谁，以及你如何始终掌控。",
-    "termsHero": ["规则清楚，", "使用公平。"],
+    "termsHero": [
+      "规则清楚，",
+      "使用公平。"
+    ],
     "termsIntro": "使用 Ippo Care、免费功能、一次性完整版解锁与可选 AI 助手的规则。",
-    "supportHero": ["需要帮助时，", "我们在这里。"],
+    "supportHero": [
+      "需要帮助时，",
+      "我们在这里。"
+    ],
     "supportIntro": "常见问题解答，以及直接联系开发者的方式。",
     "emailUs": "发邮件给开发者",
     "languageNote": "各语言译本仅为方便阅读。如各版本有差异，以英文版为准，但你所在地法律另有规定的除外。",
     "integrity": "本页面由公开的版本控制仓库发布，每一次修改都会记录在历史中。",
     "history": "修改历史",
-    "copyright": "Yusen Wang · Ippo Care"
+    "copyright": "Yusen Wang · Ippo Care",
+    "tagline": "每天一小步，看得见的改变。",
+    "landingIntro": "Ippo Care 是一款 iPhone 个人健康伙伴。它把你的 Apple 健康数据、饮食和训练汇集在一起，帮你制定目标，并让一座小城随你真实的进步而成长。在这里，你可以了解它如何对待你的数据、使用条款，以及如何获得帮助。",
+    "read": "阅读",
+    "highlights": [
+      [
+        "数据留在你的 iPhone 上",
+        "没有账号，也没有开发者运营的健康数据库。你的记录保存在你的设备上。"
+      ],
+      [
+        "无广告，无追踪",
+        "不含广告和分析 SDK，Apple 健康数据绝不出售。"
+      ],
+      [
+        "AI 由你选择",
+        "助手是可选功能，只使用你自己设置的服务商和密钥。"
+      ]
+    ],
+    "glance": "要点速览",
+    "backToTop": "回到顶部",
+    "copy": "复制",
+    "copied": "已复制",
+    "faq": "常见问题",
+    "sections": "个章节",
+    "reply": "通常两个工作日内回复"
   },
   "privacy": [
     {

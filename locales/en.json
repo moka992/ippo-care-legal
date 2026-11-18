@@ -14,17 +14,50 @@
     "contact": "Contact the developer",
     "appleEula": "Apple Standard EULA",
     "applePrivacy": "Apple Privacy Policy",
-    "privacyHero": ["Your health data.", "Your choices."],
+    "privacyHero": [
+      "Your health data.",
+      "Your choices."
+    ],
     "privacyIntro": "What Ippo Care collects, where it is stored, who receives it and how you stay in control.",
-    "termsHero": ["Clear terms,", "fair use."],
+    "termsHero": [
+      "Clear terms,",
+      "fair use."
+    ],
     "termsIntro": "The rules for using Ippo Care, its free features, the one-time Full Unlock and the optional AI assistant.",
-    "supportHero": ["A little help,", "when you need it."],
+    "supportHero": [
+      "A little help,",
+      "when you need it."
+    ],
     "supportIntro": "Answers to common questions, and a direct line to the developer.",
     "emailUs": "Email the developer",
     "languageNote": "Translations are provided for convenience. If versions differ, the English version prevails unless the law where you live requires otherwise.",
     "integrity": "These pages are published from a public, version-controlled repository. Every change is recorded in its history.",
     "history": "Change history",
-    "copyright": "Yusen Wang · Ippo Care"
+    "copyright": "Yusen Wang · Ippo Care",
+    "tagline": "Every small step, a visible change.",
+    "landingIntro": "Ippo Care is a personal health companion for iPhone. It brings your Apple Health data, meals and workouts together, helps you set goals, and grows a small city with your real progress. Here you can read how it treats your data, the terms for using it, and how to get help.",
+    "read": "Read",
+    "highlights": [
+      [
+        "Stays on your iPhone",
+        "No account and no developer-run health database. Your records live on your device."
+      ],
+      [
+        "No ads, no tracking",
+        "No advertising, no analytics SDKs, and Apple Health data is never sold."
+      ],
+      [
+        "You choose the AI",
+        "The assistant is optional and only uses the provider and key you set up."
+      ]
+    ],
+    "glance": "At a glance",
+    "backToTop": "Back to top",
+    "copy": "Copy",
+    "copied": "Copied",
+    "faq": "Common questions",
+    "sections": "sections",
+    "reply": "Usually replies within two business days"
   },
   "privacy": [
     {
