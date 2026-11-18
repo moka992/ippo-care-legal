@@ -67,8 +67,8 @@ function render(l, page) {
   const alternates = locales.map(o => `<link rel="alternate" hreflang="${o.code}" href="${ORIGIN}/${path(o.code, page)}">`).join('') +
     `<link rel="alternate" hreflang="x-default" href="${ORIGIN}/${path('en', page)}">`;
   return `<!doctype html>
-<html lang="${code}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="referrer" content="no-referrer"><meta name="color-scheme" content="light dark"><meta name="description" content="${esc(intro)}"><title>${esc(title)} · Ippo Care</title><link rel="canonical" href="${ORIGIN}/${path(code, page)}">${alternates}<link rel="stylesheet" href="${r('en', '')}assets/style.css"></head><body>` +
-    `<a class="skip" href="#content">${esc(u.skip)}</a><header class="top"><a class="brand" href="${r(code, '')}"><span class="mark" aria-hidden="true">i</span>Ippo Care</a><div class="top-actions"><nav aria-label="Ippo Care">${nav}</nav>${switcher}</div></header>` +
+<html lang="${code}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="referrer" content="no-referrer"><meta name="color-scheme" content="light dark"><meta name="description" content="${esc(intro)}"><title>${esc(title)} · Ippo Care</title><link rel="canonical" href="${ORIGIN}/${path(code, page)}">${alternates}<link rel="stylesheet" href="${r('en', '')}assets/style.css"><link rel="icon" type="image/png" sizes="32x32" href="${r('en', '')}assets/icon-32.png"><link rel="apple-touch-icon" href="${r('en', '')}assets/icon-180.png"><meta property="og:image" content="${ORIGIN}/assets/icon-512.png"></head><body>` +
+    `<a class="skip" href="#content">${esc(u.skip)}</a><header class="top"><a class="brand" href="${r(code, '')}"><img class="mark" src="${r('en', '')}assets/icon-128.png" width="36" height="36" alt="" aria-hidden="true">Ippo Care</a><div class="top-actions"><nav aria-label="Ippo Care">${nav}</nav>${switcher}</div></header>` +
     `<div class="hero"><p class="eyebrow">${esc(page ? u[page] : 'Ippo Care')}</p><h1>${hero.filter(Boolean).map(esc).join('<br>')}</h1><p class="intro">${esc(intro)}</p>${meta}</div>${main}` +
     `<div class="note"><p>${esc(u.languageNote)}</p><p>${esc(u.integrity)} <a href="${REPO}/commits/main" rel="noreferrer">${esc(u.history)}</a></p></div>` +
     `<footer><span>© 2026 ${esc(u.copyright)}</span><a href="mailto:${EMAIL}">${esc(u.contact)}</a><a href="${EULA}" rel="noreferrer">${esc(u.appleEula)}</a><a href="https://www.apple.com/legal/privacy/" rel="noreferrer">${esc(u.applePrivacy)}</a></footer></body></html>\n`;
@@ -77,6 +77,7 @@ function render(l, page) {
 rmSync(OUT, { recursive: true, force: true });
 mkdirSync(join(OUT,'assets'), { recursive: true });
 writeFileSync(join(OUT,'assets','style.css'), readFileSync('src/style.css', 'utf8'));
+for (const n of [32, 128, 180, 512]) writeFileSync(join(OUT, 'assets', `icon-${n}.png`), readFileSync(`src/img/icon-${n}.png`));
 writeFileSync(join(OUT,'.nojekyll'), '');
 let count = 0;
 for (const l of locales) for (const page of ['', ...pages]) {
