@@ -57,7 +57,33 @@
     "copied": "已复制",
     "faq": "常见问题",
     "sections": "个章节",
-    "reply": "通常两个工作日内回复"
+    "reply": "通常两个工作日内回复",
+    "heroEyebrow": "iPhone 上的个人健康伙伴",
+    "heroLede": "Ippo Care 把你的 Apple 健康数据、饮食和训练汇集在一起，帮你定下坚持得住的目标，并用你真实的进步建起一座小城。",
+    "heroFacts": [
+      "数据留在你的 iPhone",
+      "无需注册账号",
+      "无广告、无追踪"
+    ],
+    "ctaPrivacy": "阅读隐私政策",
+    "ctaSupport": "获取支持",
+    "shotAlt": {
+      "today": "Ippo Care 的“今日”页面",
+      "city": "随你的进步成长的小城",
+      "assistant": "Ippo Care 助手记录一份早餐",
+      "health": "Ippo Care 中的心率与生命体征"
+    },
+    "noteEyebrow": "开发者的话",
+    "noteTitle": "我为什么做 Ippo Care",
+    "noteBody": [
+      "曾经，我严重超重，体重拖垮了我的健康。我不好意思走进健身房，也不知道该从哪里开始。",
+      "后来，是 AI 帮了我。它从不评判我，帮我读懂自己的身体，和我一起制定真正坚持得下去的计划，陪我一小步一小步往前走。就这样，我成功减了重，如今的身体比过去许多年都更健康。",
+      "我做 Ippo Care，是希望每一个和当初的我一样不知从何开始的人，也能拥有这份安静的陪伴。愿 AI 让我们更爱自己；愿虚拟的 AI，让真实的我们一天比一天更好。"
+    ],
+    "noteSign": "Yusen Wang",
+    "noteRole": "Ippo Care 开发者",
+    "dataTitle": "认真对待你的每一条数据",
+    "docsTitle": "政策与支持"
   },
   "privacy": [
     {

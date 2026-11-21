@@ -57,7 +57,33 @@
     "copied": "Copied",
     "faq": "Common questions",
     "sections": "sections",
-    "reply": "Usually replies within two business days"
+    "reply": "Usually replies within two business days",
+    "heroEyebrow": "Personal health companion for iPhone",
+    "heroLede": "Ippo Care brings your Apple Health data, meals and workouts together, helps you set goals you can keep, and grows a small city with your real progress.",
+    "heroFacts": [
+      "Stays on your iPhone",
+      "No account",
+      "No ads or tracking"
+    ],
+    "ctaPrivacy": "Read the Privacy Policy",
+    "ctaSupport": "Get support",
+    "shotAlt": {
+      "today": "The Today screen of Ippo Care",
+      "city": "A small city that grows with your progress",
+      "assistant": "The Ippo Care assistant logging a breakfast",
+      "health": "Heart rate and vital signs in Ippo Care"
+    },
+    "noteEyebrow": "From the developer",
+    "noteTitle": "Why I built Ippo Care",
+    "noteBody": [
+      "For years I was seriously overweight, and my health paid the price. I was too embarrassed to walk into a gym, and I had no idea where to begin.",
+      "What changed things was AI. It never judged me. It helped me understand my body, make a plan I could actually keep, and take one small step at a time. Step by step I lost the weight, and today I feel healthier than I have in years.",
+      "I built Ippo Care so that anyone starting where I started can have that same quiet support. I hope AI can help us love ourselves a little more, and that something virtual can make the real us better, one day at a time."
+    ],
+    "noteSign": "Yusen Wang",
+    "noteRole": "Developer of Ippo Care",
+    "dataTitle": "Your data, handled with care",
+    "docsTitle": "Policies and support"
   },
   "privacy": [
     {
